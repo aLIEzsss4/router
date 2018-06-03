@@ -126,7 +126,6 @@ let ServerLocation = ({ url, children }) => (
 ////////////////////////////////////////////////////////////////////////////////
 // Sets baseuri and basepath for nested routers and links
 let BaseContext = createNamedContext("Base", { baseuri: "/", basepath: "/" });
-
 ////////////////////////////////////////////////////////////////////////////////
 // The main event, welcome to the show everybody.
 let Router = props => (
